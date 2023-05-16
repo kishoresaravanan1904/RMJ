@@ -1,0 +1,62 @@
+﻿<repository
+id="460e53ff-3cec-43bf-9da7-c47724ce44cf"
+name="RMJRepository">
+	<codegen
+	classname="RMJRepository"
+	namespace="RMJ">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="5eaa6e3d-1c27-4a17-b71c-9c3d6c91ca2c"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="6a58976b-2ee2-49a3-a654-8c5f02a44f76"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@title='Ranorex Studio Demo Application']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="827782ac-4137-4ed7-88ba-c21ff7b15df5"
+			name="EnterYourName"
+			refimgid="50883eae-7284-464f-9318-4b1150b3ceb1"
+			refpath="/form[@title='Ranorex Studio Demo Application']/tabpagelist[@controlid='1']/tabpage[@title='Introduction' and @index='0' and @controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@title>'Ranorex Studio Demo Appli']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Ranorex Studio Demo Appli']/?/?/tabpage[@index='0' and @controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="47087829-49a2-487c-870e-6eba55148f67"
+			name="BtnSubmitUserName"
+			refimgid="6e8f88fc-fe9c-4d03-9d2a-8523027d8444"
+			refpath="/form[@title>'Ranorex Studio Demo Appli' and @processname='rxdemo' and @controlname='RxMainFrame' and @controltypename='RxMainFrame' and @controlname='RxMainFrame' and @instance='2']/tabpagelist/tabpage[@title='Introduction' and @index='0' and @controlname='RxTabIntroduction']/button[@text='Submit']"
+			robustPath="/form[@title>'Ranorex Studio Demo Appli']//button[@text='Submit']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Ranorex Studio Demo Appli']/?/?/tabpage[@index='0' and @controlname='RxTabIntroduction']/button[@text='Submit']
+			</item>
+			<basepath>
+				/form[@title&gt;'Ranorex Studio Demo Appli']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
